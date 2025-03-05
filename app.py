@@ -18,7 +18,8 @@ color_codes = {
 }
 
 #color = os.environ.get('APP_COLOR') or random.choice(["red","green","purple"])
-color = os.environ.get('APP_COLOR') or random.choice(["red","green","purple","blue","pink","yellow","white"])
+#color = os.environ.get('APP_COLOR') or random.choice(["red","green","purple","blue","pink","yellow","white"])
+color = random.choice(["red","green","purple","blue","pink","yellow","white"])
 #color = os.environ.get('APP_COLOR') or random.choice(["white"])
 #color = os.environ.get('APP_COLOR') or random.choice(["pink","blue","yellow"])
 
